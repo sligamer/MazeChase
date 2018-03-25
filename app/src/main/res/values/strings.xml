@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MazeChase</string>
+
+    <string name="up">Up button</string>
+    <string name="down">Down button</string>
+    <string name="left">Left button</string>
+    <string name="right">Right button</string>
+    <string name="pig">Pig</string>
+    <item name="action_settings" type="id">Settings</item>
+</resources>
