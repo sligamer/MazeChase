@@ -1,7 +1,9 @@
 package com.lab54.sligamer.mazechase
 
 /**
- * Created by sligamer on 3/22/2018.
+ * Created by Justin Freres on 3/24/2018.
+ * Lab 5-4 Maze Chase Game
+ * Plugin Support with kotlin_version = '1.2.21'
  */
 class MazeCell {
 

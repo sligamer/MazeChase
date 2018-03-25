@@ -6,15 +6,16 @@ import android.graphics.Color
 import android.graphics.Paint
 import android.view.View
 import java.util.*
-import kotlin.math.roundToInt
 
 /**
- * Created by sligamer on 3/22/2018.
+ * Created by Justin Freres on 3/24/2018.
+ * Lab 5-4 Maze Chase Game
+ * Plugin Support with kotlin_version = '1.2.21'
  */
 class MazeCanvas : View {
 
     // MAZE DIMENSIONS
-    var COLS: Int = 9
+    var COLS: Int = 9  // IN ORDER TO FIX ON NEWER PHONE COLS 9
     var ROWS: Int = 9
     var N_Cells: Int = COLS * ROWS
     var SIZE: Int = 100

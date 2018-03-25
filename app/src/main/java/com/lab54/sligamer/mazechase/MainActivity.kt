@@ -1,16 +1,19 @@
 package com.lab54.sligamer.mazechase
 
-import android.content.Context
 import android.graphics.drawable.AnimationDrawable
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.constraint.ConstraintLayout
-import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.ImageView
 
+/**
+ * Created by Justin Freres on 3/24/2018.
+ * Lab 5-4 Maze Chase Game
+ * Plugin Support with kotlin_version = '1.2.21'
+ */
 class MainActivity : AppCompatActivity() {
 
     //DECLARE PRIVATE VARIABLES
@@ -36,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         relativeLayout.addView(maze, 0)
 
         // CREATE A LAYOUT INFLATER
-        // kotlin takes care of the layoutInflater
+        // kotlin takes care of the layoutInflater init
 
         // SET THE BACKGROUND OF THE IMAGEVIEW TO THE PIG ANIMATION
         pig = layoutInflater.inflate(R.layout.pig_view, null) as ImageView
@@ -112,6 +115,5 @@ class MainActivity : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
-
 
 }
